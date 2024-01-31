@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Spicejet]">
+  <listeners>
+    <listener class-name="com.cucumber.utility.Listener"/>
+  </listeners>
+  <test name="studentInfo">
+    <classes>
+      <class name="com.cucumber.TestRunner.studentInfoRunner"/>
+    </classes>
+  </test> <!-- studentInfo -->
+  <test name="controlPanel">
+    <classes>
+      <class name="com.cucumber.TestRunner.controlPanelRunner"/>
+    </classes>
+  </test> <!-- controlPanel -->
+</suite> <!-- Failed suite [Spicejet] -->
